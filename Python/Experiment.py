@@ -4,7 +4,6 @@ y = 7//3
 print(x)
 print(y)
 
-
 yearsOfService = int(input("Enter your year's of service: "))
 Salary = int(input("Enter your Salary: "))
 
