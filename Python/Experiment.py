@@ -11,6 +11,5 @@ if yearsOfService >= 5:
     Salary = Salary*0.05
     print(f"Your recieved a 5% bonus, your salary for this month is {Salary}")
 
-
 else:
     print("You're not eligible")
