@@ -33,5 +33,6 @@ def Counter(strInput) :
             countUpper += 1
     print(f"Number of uppercase letters: {countUpper}")
     print(f"Number of lowercase letters: {countLower}")
+    return countUpper,countLower
 
 Counter(strInput)
