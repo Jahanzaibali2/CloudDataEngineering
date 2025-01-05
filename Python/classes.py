@@ -6,7 +6,7 @@ class login():
     def __debconnectivity(self, username,password):
         if username == self.username and password == self.password:
             print("Database connected Succesfully")
-            print("Login Succesful")
+            print("Login Successful")
 
         else:
             print("Login And DB Connectivity Failed")
@@ -23,6 +23,9 @@ class login():
 
 user = login()
 user.logingIn("admin","admin")
+user.updatePassword("pohancho bhai")
+user.logingIn("admin","pohancho bhai")
+user.logingIn("admin","pohancho bai")
 
 class addition:
     
